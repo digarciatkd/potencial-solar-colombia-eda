@@ -109,6 +109,9 @@ de Plotly).
 
 ## Notas
 - Los datos NASA POWER son de dominio público (NASA Langley Research Center, POWER Project).
+- El informe de proyectos es de acceso público de la UPME.
+- La API NASA POWER agrega por celdas de 0.5°, por lo que las coordenadas se
+  redondean a la celda correspondiente.
 ---
 ## Herramientas
 `Python` · `Streamlit` · `pandas` · `requests` (API) · `plotly`/`matplotlib` `SQL`
@@ -119,6 +122,4 @@ Diana García — Economista · [LinkedIn](https://linkedin.com/in/diana-sirley-
 
 
 
-- El informe de proyectos es de acceso público de la UPME.
-- La API NASA POWER agrega por celdas de 0.5°, por lo que las coordenadas se
-  redondean a la celda correspondiente.
+
