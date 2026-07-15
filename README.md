@@ -107,11 +107,18 @@ jupyter notebook scripts/EDA.ipynb
 Las figuras resultantes están en `docs/figuras/` (PNG estáticos y HTML interactivos
 de Plotly).
 
----
-
 ## Notas
-
 - Los datos NASA POWER son de dominio público (NASA Langley Research Center, POWER Project).
+---
+## Herramientas
+`Python` · `Streamlit` · `pandas` · `requests` (API) · `plotly`/`matplotlib` `SQL`
+
+
+## Autora
+Diana García — Economista · [LinkedIn](https://linkedin.com/in/diana-sirley-garcia-quintero-economia)
+
+
+
 - El informe de proyectos es de acceso público de la UPME.
 - La API NASA POWER agrega por celdas de 0.5°, por lo que las coordenadas se
   redondean a la celda correspondiente.
