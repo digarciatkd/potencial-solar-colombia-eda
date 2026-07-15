@@ -1,0 +1,31 @@
+# ── Credenciales y configuración local ───────────────────────────────────────
+.env
+*.env
+.streamlit/secrets.toml
+
+# ── Python ───────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+env/
+
+# ── Jupyter ──────────────────────────────────────────────────────────────────
+.ipynb_checkpoints/
+
+# ── Sistema operativo ────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# NOTA: los datos crudos (data/*.xlsx) y la base potencial_solar.db SÍ se versionan
+# en este repositorio de forma intencional, para que el EDA sea reproducible sin
+# re-descargar la API. Si prefieres un repo liviano, descomenta las líneas:
+# data/datos_nasa_*.xlsx
+# data/Informe_*.xlsx
+# data/potencial_solar.db
